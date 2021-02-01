@@ -9,7 +9,7 @@ export default class {
   
   static async list({
     page = 0,
-    size = 10
+    size = 15
   } = {}) {
     return fetch(`/admin/users?page=${page}&size=${size}`, {
       credentials: 'same-origin'
